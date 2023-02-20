@@ -1,0 +1,70 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "High Voltage Circuitry")
+    (rev ".")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 60.96 85.09) (size 45.72 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5cadf0c8-edcd-4b51-b3d4-914d3d6ead13)
+    (property "Sheetname" "Power" (at 60.96 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 60.96 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "picoemp_kicad"
+        (path "/3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 115.57 85.09) (size 45.72 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7a73d60b-1200-44ba-88e7-a313c65da933)
+    (property "Sheetname" "RP2040" (at 115.57 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 115.57 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "picoemp_kicad"
+        (path "/3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 170.18 85.09) (size 45.72 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fbf650a8-2c0c-4af6-8b5b-5f7ba6e62b3a)
+    (property "Sheetname" "High voltage" (at 170.18 84.3784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "high_voltage.kicad_sch" (at 170.18 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "picoemp_kicad"
+        (path "/3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
