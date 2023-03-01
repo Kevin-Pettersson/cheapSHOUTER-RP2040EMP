@@ -1,4 +1,4 @@
-# picoemp-RP2040
+# cheapSHOUTER-RP2040EMP
 
 
 ## License
