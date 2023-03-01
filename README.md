@@ -1,5 +1,5 @@
 # cheapSHOUTER-RP2040EMP
-Improved version of the great ChipSHOUTER-PicoEMP, this version has made cuts to the BOM and has added functionality inclduing: built in RP2040 instead of using a PICO, LIPO charger + protection, USB isolation (not true isolation, allows to disconnect VBUS) + TVS diodes, buzzer, cleaner layout, and more.
+Improved version of the great ChipSHOUTER-PicoEMP, this version has made cuts to the BOM and has added functionality inclduing: built in RP2040 instead of using a PICO, USB-C, LIPO charger + protection, USB isolation (not true isolation, allows to disconnect VBUS) + TVS diodes, buzzer, cleaner layout, and more.
 
 
 ## Contributors
