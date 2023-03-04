@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "MCU")
+    (date "2023-03-04")
+    (rev "V1")
+    (company "Kevin Pettersson")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x03_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -1962,10 +1969,6 @@
     (stroke (width 0) (type default))
     (uuid 6ddc4fdd-3097-4f5e-82bf-53ae1c3db132)
   )
-  (wire (pts (xy 113.03 242.57) (xy 121.92 242.57))
-    (stroke (width 0) (type default))
-    (uuid 6e708161-4ed6-4378-b314-5caeed989215)
-  )
   (wire (pts (xy 286.766 52.07) (xy 290.068 52.07))
     (stroke (width 0) (type default))
     (uuid 6e76530a-0e2c-4337-91e7-ab024a934ab2)
@@ -2031,6 +2034,10 @@
     (stroke (width 0) (type default))
     (uuid 8c737c92-5f37-415b-88bb-00c628c18581)
   )
+  (wire (pts (xy 113.03 242.57) (xy 121.92 242.57))
+    (stroke (width 0) (type default))
+    (uuid 8df69b9e-2dfb-47c4-9c9f-59493e2bc496)
+  )
   (wire (pts (xy 49.784 91.44) (xy 59.69 91.44))
     (stroke (width 0) (type default))
     (uuid 925a1ce3-25de-4c01-98ae-7f1e07200773)
@@ -2057,6 +2064,10 @@
     (uuid 9a729a65-d3a9-492a-978c-dbea133fa202)
   )
 
+  (wire (pts (xy 113.03 243.84) (xy 113.03 242.57))
+    (stroke (width 0) (type default))
+    (uuid 9c70a49a-e7ee-4093-a450-857a65504a6a)
+  )
   (wire (pts (xy 76.2 171.45) (xy 76.2 170.18))
     (stroke (width 0) (type default))
     (uuid 9e4bbafd-e53a-4173-9361-ee1550362104)
@@ -2234,6 +2245,10 @@
   (wire (pts (xy 220.98 52.07) (xy 230.886 52.07))
     (stroke (width 0) (type default))
     (uuid da4d79f6-2d66-48dc-be24-178587ec1d94)
+  )
+  (wire (pts (xy 113.03 252.73) (xy 113.03 251.46))
+    (stroke (width 0) (type default))
+    (uuid dad53957-c2ef-463e-bf05-c297ee2b3759)
   )
   (wire (pts (xy 289.56 124.46) (xy 288.29 124.46))
     (stroke (width 0) (type default))
@@ -4481,6 +4496,31 @@
     )
   )
 
+  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 113.03 252.73 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c268c95d-a43e-45f7-b6ac-eea1433c8de1)
+    (property "Reference" "#PWR075" (at 113.03 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 113.03 257.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.03 252.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 252.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b7297ea-12cc-43e7-9f37-7825958250c8))
+    (instances
+      (project "picoemp_kicad"
+        (path "/3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3/7a73d60b-1200-44ba-88e7-a313c65da933"
+          (reference "#PWR075") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 282.956 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c680a58c-a1e7-46c3-bee1-c32a7db66659)
@@ -4745,6 +4785,37 @@
       (project "Temperature probe rp2040"
         (path "/460313fe-a917-4c7a-9f7f-e32c88e78d52"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 113.03 247.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dad72e28-5b4c-4868-8fbf-6d419099a54e)
+    (property "Reference" "R26" (at 118.11 246.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 118.11 248.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 111.252 247.65 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 113.03 247.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 61ed0a5f-291a-44c8-ac0b-27a0f1dfb074))
+    (pin "2" (uuid fbd0a541-9852-4b7c-8026-3cc5430a2229))
+    (instances
+      (project "picoemp_kicad"
+        (path "/3227ed55-0ca5-48b6-9dc2-dcbe4715d7c3/7a73d60b-1200-44ba-88e7-a313c65da933"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "Temperature probe rp2040"
+        (path "/460313fe-a917-4c7a-9f7f-e32c88e78d52"
+          (reference "R9") (unit 1)
         )
       )
     )
