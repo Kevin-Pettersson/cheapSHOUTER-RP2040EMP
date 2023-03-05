@@ -1336,16 +1336,16 @@
 
   (footprint "kibuzzard-63F2726C" (layer "F.Cu")
     (tstamp 14fc0670-9dc5-4f1d-b082-85d517832988)
-    (at 165.501105 89.0536)
+    (at 165.501105 88.9036)
     (descr "Generated with KiBuzzard")
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIyIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkFSTVxuIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIjIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63F2726C" (at 0 -4.703233) (layer "F.SilkS") hide
-        (effects (font (size 0 0) (thickness 0.15)))
+        (effects (font (size 0.0254 0.0254) (thickness 0.00635)))
       (tstamp 8a1e6dd4-f55a-4ed0-832a-23ec3fd84503)
     )
     (fp_text value "G***" (at 0 4.703233) (layer "F.SilkS") hide
-        (effects (font (size 0 0) (thickness 0.15)))
+        (effects (font (size 0.0254 0.0254) (thickness 0.00635)))
       (tstamp 6ff0128b-ca57-4861-b1e7-f91aa54a36c4)
     )
     (fp_poly
@@ -2298,7 +2298,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/7a73d60b-1200-44ba-88e7-a313c65da933/32fbb339-cc69-442f-8c3c-776efbcdfa6a")
     (attr smd)
-    (fp_text reference "C13" (at 0.001105 -1.5964) (layer "F.SilkS")
+    (fp_text reference "C13" (at 0.021105 1.4436) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp faeaadb2-5778-4cd8-97c6-26dda6b324c8)
     )
@@ -5200,7 +5200,7 @@
 
   (footprint "kibuzzard-63F78E1E" (layer "F.Cu")
     (tstamp 47debe3c-b78b-4f72-a9fd-4ebd57bf2079)
-    (at 167.701105 54.6036)
+    (at 167.7 54.61)
     (descr "Generated with KiBuzzard")
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxLjMiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiKyIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIxLiJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -6838,7 +6838,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/7a73d60b-1200-44ba-88e7-a313c65da933/5d86c2d7-5c6a-4404-9f62-29f4cced16ad")
     (attr smd)
-    (fp_text reference "R16" (at -3.35 -0.05 -270) (layer "F.SilkS") hide
+    (fp_text reference "R16" (at 0.0264 2.231105 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f38e03b5-5ce0-4f8f-8cf4-98f5589dd45d)
     )
@@ -9037,42 +9037,6 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 11d77989-1e73-472e-b3ee-ed2b929e9ebe))
   )
 
-  (footprint "kibuzzard-63F78DFD" (layer "F.Cu")
-    (tstamp 7962feb9-916c-43b9-a6aa-2e71480081b8)
-    (at 167.501105 62.4036)
-    (descr "Generated with KiBuzzard")
-    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIyIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIi1cbiIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIxLiJ9")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "kibuzzard-63F78DFD" (at 0 -3.901546) (layer "F.SilkS") hide
-        (effects (font (size 0 0) (thickness 0.15)))
-      (tstamp 5904d5bf-80b2-4040-8097-70c40b20efae)
-    )
-    (fp_text value "G***" (at 0 3.901546) (layer "F.SilkS") hide
-        (effects (font (size 0 0) (thickness 0.15)))
-      (tstamp 7a9019c0-9f3b-4673-bfd7-849ca2425544)
-    )
-    (fp_poly
-      (pts
-        (xy -0.434975 -0.853546)
-        (xy -1.096433 -0.853546)
-        (xy -1.096433 0.853546)
-        (xy -0.434975 0.853546)
-        (xy 0.434975 0.853546)
-        (xy 0.434975 0.192087)
-        (xy -0.434975 0.192087)
-        (xy -0.434975 -0.192088)
-        (xy 0.434975 -0.192088)
-        (xy 0.434975 0.192087)
-        (xy 0.434975 0.853546)
-        (xy 1.096433 0.853546)
-        (xy 1.096433 -0.853546)
-        (xy 0.434975 -0.853546)
-        (xy -0.434975 -0.853546)
-      )
-
-      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e38ab46e-7bac-474d-858a-85d35b814821))
-  )
-
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 7caea6bf-73dd-4759-b778-2758108f6720)
     (at 159.001105 57.4536 -90)
@@ -9347,6 +9311,42 @@
       )
 
       (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp fd977317-e006-4eff-9a97-bc667519aa8a))
+  )
+
+  (footprint "kibuzzard-640461F9" (layer "F.Cu")
+    (tstamp 7dbdcb52-2c2b-40e2-89f9-c8f93f9dc5c5)
+    (at 167.7 62.4)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIxLjUiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiLVxuIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjcuNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNS41IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNS41IiwgIlBhZGRpbmdUb3BDdHJsIjogIjcuNSIsICJXaWR0aEN0cmwiOiAiMS4ifQ==")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-640461F9" (at 0 -3.936206) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.25)))
+      (tstamp fb22f3f9-85e9-4016-9b25-4a64af3a2478)
+    )
+    (fp_text value "G***" (at 0 3.936206) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.25)))
+      (tstamp bba90311-da02-4105-9614-9e2869ec1efe)
+    )
+    (fp_poly
+      (pts
+        (xy -0.326231 -0.888206)
+        (xy -0.871934 -0.888206)
+        (xy -0.871934 0.888206)
+        (xy -0.326231 0.888206)
+        (xy 0.326231 0.888206)
+        (xy 0.326231 0.144066)
+        (xy -0.326231 0.144066)
+        (xy -0.326231 -0.144066)
+        (xy 0.326231 -0.144066)
+        (xy 0.326231 0.144066)
+        (xy 0.326231 0.888206)
+        (xy 0.871934 0.888206)
+        (xy 0.871934 -0.888206)
+        (xy 0.326231 -0.888206)
+        (xy -0.326231 -0.888206)
+      )
+
+      (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 9e715435-8428-4cf3-9582-50a5b9f24b33))
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
@@ -12687,7 +12687,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/7a73d60b-1200-44ba-88e7-a313c65da933/2bf9681f-cab6-4ab3-bee6-7aa4e35cf7d0")
     (attr smd)
-    (fp_text reference "R27" (at 0 -1.43 -270) (layer "F.SilkS") hide
+    (fp_text reference "R27" (at 0.0064 -2.188895 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffcbac41-896a-4869-b463-e3faedb043a2)
     )
@@ -13893,7 +13893,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/7a73d60b-1200-44ba-88e7-a313c65da933/c9e97abf-24db-4c80-aade-b11b4203bf16")
     (attr smd)
-    (fp_text reference "R15" (at -2.95 0.1) (layer "F.SilkS") hide
+    (fp_text reference "R15" (at -2.951105 0.0264) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7436842c-5ebb-4e1a-9fcc-678f07f0954a)
     )
