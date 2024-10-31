@@ -5,10 +5,14 @@ Improved version of the great ChipSHOUTER-PicoEMP, this version has made cuts to
 
 ## Contributors
 - Colin O'Flynn (original HW design)
+- Nezza (original FW)
 - Kevin Pettersson 
 - Linus Backlund
 - Wilhelm Westermark
 
+
+## Firmware
+The firmware is a slightly tweaked version of the c-firmware from the original repo. The changes adapts the button logic to the active-high board design and activates the buzzer for a short period upon manual pulses.
 
 ## License
 
